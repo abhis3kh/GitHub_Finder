@@ -13,7 +13,7 @@ const UserSearch = () => {
       window.alert('Please enter something to search for');
     } else {
       searchUsers(text);
-      setText('');
+      // setText('');
     }
   };
   const handleClick = () => {
@@ -45,7 +45,6 @@ const UserSearch = () => {
       {users.length > 0 && (
         <div>
           <button className='btn btn-ghost btn-large' onClick={handleClick}>
-            {' '}
             Clear
           </button>
         </div>

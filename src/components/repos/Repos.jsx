@@ -10,7 +10,6 @@ const Repos = ({ repos }) => {
         </h2>
         {repos.map((repo) => (
           <RepoItem key={repo.id} repo={repo} />
-          //   <h3> {repo.name}</h3>
         ))}
       </div>
     </div>
